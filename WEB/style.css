@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 200px;
+}
+h1{
+    font-size: 3em;
+    padding: 200px 0px 0px 0px;
+}
+h2{
+    font-size: 2.5em;
+    padding: 10px;
+}
+h3{
+    font-size: 2em;
+}
+p{
+    font-size: 1.2em;
+text-align: center;
+padding: 10px;
+}
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: black;
+    font-family: 'Roboto',sans-serif;
+margin: 0;
+}
+button{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: blue;
+}
+button:hover{
+    background-color: rgb(6, 6, 141);
+}
+.redondo{
+width: 50px;
+border-radius: 50%;
+border: 2.5px solid white;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding: 5px;
+    margin: 10px;
+}
+.barratop{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 30px;
+    gap: 10px;
+    color: white;
+}
+.colorini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 162, 255);
+    width: 80px;
+    height: 40px;
+}
+.medio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+.linea{
+    width: 50%;
+    height: 4px;
+    background-color:rgb(0, 162, 255);
+    margin: 10px 0;
+     }
+
+.imgmedio{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    max-width: 1400px;
+    width: auto;
+background-image: url(imgenmedio1.png);
+
+}
+.redes{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.redes img{
+    width: 30px;
+    height: 30px;
+}
+
+.isidoros{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    color: white;
+    padding: 20px;
+}
+.isidoros img{
+    height: 15px;
+    width: 20px;
+}
+
+.proyectos{
+    color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 40px;
+}
+.imaproyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.imagenbox {
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: end; 
+    justify-content: center; 
+    text-align: center; 
+}
+p{
+    display: inline-block;
+    
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+span{
+    display: inline-block;
+    background-color: aqua;
+    width: 100%;
+
+}
+.imaproyectos div img{
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+
+}
+
+.imagenbox1 {
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(2.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: end; 
+    justify-content: center; 
+    text-align: center; 
+}
+.imagenbox2 {
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(3.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: end; 
+    justify-content: center;
+    text-align: center; 
+}
+.imagenbox3 {
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(4.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: end; 
+    justify-content: center; 
+    text-align: center; 
+}
+.imagenbox4 {
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(5.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: end;
+    justify-content: center; 
+    text-align: center; 
+}
+.imagenbox5 {
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(6.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: end; 
+    justify-content: center; 
+    text-align: center; 
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+.fin{
+    margin-top: 20px;
+    background-color: rgb(107, 107, 107);
+}
